@@ -1,0 +1,36 @@
+title: cameron g. kaminski
+author: Cameron Kaminski
+email: cameron.g.kaminski@gmail.com 
+description: > # will not be shown on site
+  Project / reserach page.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://CgKaminski.github.io # the base hostname & protocol for your site, e.g. http://example.com
+
+# Markdown and syntax highlight
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+# Build settings
+theme: no-style-please
+theme_config:
+  appearance: "dark"
+  back_home_test: ".."
+  date_formant: "%Y-%m-%d"
+  show_description: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  style: :compressed
+

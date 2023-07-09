@@ -1,0 +1,40 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: about
+    entries:
+      - title: entering 4th year computer-science student at Western Washington University.
+      - title: interested in computer architecture and machine learning, more specifically the union of the two being hardware accelerator design for machine learning applications.
+      - title: contact me via email at cameron.g.kaminski@gmail.com
+        url: mailto:cameron.g.kaminski@gmail.com
+      - title: download my resume
+        url: /assets/resume.pdf
+      - title: check out my github 
+        url: https://github.com/CgKaminski
+
+
+  - title: experience
+    entries:
+      - title: Undergraduate machine learning reseracher
+        entries: 
+          - title: worked under Dr. Kameron Harris at Western Washington University.
+          - title: studied kernel analysis of theoretical machine learning models.
+          - title: tools; python, pytorch, compute clusters, cuda.
+      - title: Data Science Senior Project Programming Lead
+        entries:
+          - title: worked under Dr. Brain Hutchinson, Dr. Kimi Noguchi, and Jen Nimtz on creating a WWU course curriculum grapher.
+          - title: my position was as the lead progammer for the project; I managed the software engineering for the team.
+          - title: tools; C++, python.
+
+
+  - title: projects; machine learning
+    post_list:
+      category: machine-learning
+      limit:
+
+  - title: projects; computer architecture
+    post_list:
+      category: computer-architecture
+      limit:
+
