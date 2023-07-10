@@ -33,8 +33,6 @@ GEM
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-imagemagick (1.4.0)
-      jekyll (>= 3.4)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
@@ -75,11 +73,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-imagemagick
-  kramdown
   kramdown-parser-gfm
   no-style-please
-  rouge
 
 BUNDLED WITH
    2.4.15
