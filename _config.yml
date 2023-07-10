@@ -20,11 +20,10 @@ kramdown:
       start_line: 1
 
 # Build settings
-theme: no-style-please
+remote_theme: no-style-please
 theme_config:
   appearance: "dark"
   back_home_test: ".."
-  date_formant: "%Y-%m-%d"
   show_description: false
 
 plugins:
