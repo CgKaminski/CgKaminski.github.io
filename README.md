@@ -16,10 +16,9 @@ The website is built using the following technologies:
 - SCSS
 
 ## Project Structure
-The main file simply follow the structre of Jekyll provided themes, which for further information you can check [here](https://jekyllrb.com/).
+The main project simply follows the structre of Jekyll provided themes, which for further information you can check [here](https://jekyllrb.com/).
 
 Feel free to explore the repository to see the code and content that powers the website.
-
 
 ## License
 
