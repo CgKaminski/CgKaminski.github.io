@@ -2,7 +2,7 @@
 
 This repository contains the source code and content for my personal website, which is hosted using GitHub Pages. The website showcases my portfolio, projects, and general information about me.
 
-The website is an altered version of the [no-style-please](https://github.com/riggraz/no-style-please) theme. If you are interested in the similar layout I would suggest you take a look at the theme provided by @riggraz.
+The website is an altered version of the [no-style-please](https://github.com/riggraz/no-style-please) theme. If you are interested in a similar layout I would suggest you take a look at the theme provided by @riggraz.
 
 ## Live Website
 
