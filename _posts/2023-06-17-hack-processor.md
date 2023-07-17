@@ -16,7 +16,7 @@ The Hack-Processor features a Harvard architectural design with separated instru
 
 The below is a logic level representation of the hack-processor as explicitly defined in my HDL-1 implementation.  
 
-![hack processor architecture](/assets/img/hack-processor.png){:.ioda}
+![hack processor architecture](/assets/img/hack-processor.png)
 
 ## GitHub Repository
 
