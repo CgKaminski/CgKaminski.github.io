@@ -4,8 +4,6 @@ title: "hack processor"
 category: computer-architecture
 ---
 
-# Hack Processor: A systemVerilog implementation of the hack processor from the Nand to Tetris course
-
 This project is a System Verilog implementation of the Hack-Processor, a 16-bit computer processor introduced in the NAND to Tetris course. The NAND to Tetris course, also known as "From Nand to Tetris: Building a Modern Computer from First Principles," is an educational program offered by the Hebrew University of Jerusalem. More information can be found on their [official site](https://www.nand2tetris.org/).
 
 ## The Nand to Tetris Course 
