@@ -10,10 +10,6 @@ I worked with Western Washington University professor Dr. Kameron Harris on a ma
 
 My project was labeled "Slow Feature Learning" and primarily entailed an exploration of a model comparison technique called Centered Kernel Alignment, using a single hidden layer neural network with different converging learning rates. Each model was trained on a binary digit pair from the MNist dataset.
 
-Centered Kernal Alignment (CKA) can be defined as follows:
-
-$$ CKA(X, Y) = \frac{{\langle K(X, X), K(Y, Y) \rangle}}{{\sqrt{{\langle K(X, X), K(X, X) \rangle \cdot \langle K(Y, Y), K(Y, Y) \rangle}}}} $$
-
 Most commonly CKA is used as a comparison measure between two different neural networks. However, in our research we compare the model with the data it is trained on. More on CKA can be found in the paper  [link](https://arxiv.org/abs/1905.00414 "'Similarity of Neural Network Representations Revisited'") by S. Kornblith, et al. This type of comparison can be done by using the model feature map $\phi$ and the dataset target vector $y$
 
 One result was we found NNs with smaller readout learning rates tended to have a lower total CKA.
@@ -26,7 +22,7 @@ An aspect of the project that I found particularly interesting was performance o
 
 This led us to consider some mathematical tricks to optimize our program. We were able to optimize the CKA function to run for an average 0.7731s for our sized matrices. That improvement alone allows us to calculate the CKA for all models in just 14.5 hr. The following is a chart showing the improvement we made in calculating the CKA over a growing matrix space.
 
-![optimization chart](/assets/img/optim-charts.jpg) {:.ioda}
+![optimization chart](/assets/img/optim-charts.jpg){:.ioda}
 
 Out of curiosity I decided to bring the optimization a step further with an experiment in CUDA C++ programming. Using the optimized model while on the same hardware, I achieved a CKA calculation time of 0.082s for our sized matrix. Unfortunately, the CDUA C++ model was unable to be used for the final calculation due to the GPU cluster at our university having outdated NVIDIA software. Below is the PyTorch model written in CUDA C++.
 
