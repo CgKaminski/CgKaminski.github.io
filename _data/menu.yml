@@ -35,8 +35,8 @@ entries:
       category: machine-learning
       limit:
 
-  - title: projects; microarchitecture
+  - title: projects; hardware
     post_list:
-      category: computer-architecture
+      category: hardware
       limit:
 
