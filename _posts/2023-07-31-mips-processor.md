@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "mips processor"
-category: computer-architecture
+category: hardware
 ---
 
 This project is a System Verilog implementation of a MIPS processor, a widely-used architecture in computer systems. The MIPS (Microprocessor without Interlocked Pipeline Stages) architecture is known for its simplicity and efficiency, making it a popular choice for teaching computer architecture concepts.
