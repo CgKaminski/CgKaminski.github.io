@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "risc-v 5 stage pipelined processor"
-category: computer-architecture
+category: hardware
 ---
 
 This project is a System Verilog implementation of a 5-stage pipelined RISC-V processor. The pipelining technique is a fundamental concept in modern processor design, enabling improved instruction throughput and performance by overlapping instruction execution stages.
